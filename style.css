@@ -1,0 +1,19 @@
+.container{
+    background: cornflowerblue;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8,50px);
+    grid-gap: 4px;
+}
+
+.cell{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: white;
+}
