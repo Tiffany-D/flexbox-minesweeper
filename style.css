@@ -1,19 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    text-align: center;
+}
 .container{
-    background: cornflowerblue;
-    display: inline-block;
-    border: 3px solid black;
+    background: #B8B5FF;
+    display:inline-block;
+    justify-content:center;
+    border: 7px solid #B8B5FF;
+    border-radius: 8px;
+    margin: 15px;
+    border-style: groove;
 }
 
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 50px);
     grid-template-rows: repeat(8,50px);
-    grid-gap: 4px;
+    grid-gap: 2px;
+    
 }
 
 .cell{
     justify-content: center;
     align-items: center;
     display: flex;
-    background: white;
+    background: #D7E9F7;
+    font-family: 'Press Start 2P', cursive;
+    border-style: groove;
+    border-color: #B8B5FF;
+    border-radius: 8px;
+}
+
+.fas.fa-bomb{
+    color: #3F0071;
+}
+
+.one{
+    opacity: 0;
+    color: #1EAE98;
+   
+}
+
+.one:hover{
+    opacity: 1;
+    cursor: pointer;
+    animation-name: tada;
+    animation-duration: 3s;
+}
+.two{
+    color: #FA26A0;
+}
+.zero{
+    color: #FFFFDD;
+}
+@keyframes tada{
+
 }
