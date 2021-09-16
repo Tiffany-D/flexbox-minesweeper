@@ -37,12 +37,10 @@ body{
 }
 
 .one{
-    opacity: 0;
     color: #1EAE98;
    
 }
-
-.one:hover{
+:hover{
     opacity: 1;
     cursor: pointer;
     animation-name: tada;
